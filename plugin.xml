@@ -12,5 +12,8 @@
       <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
           <string>This app needs microphone access</string>
       </config-file>
+      <config-file target="*-Info.plist" parent="NSSpeechRecognitionUsageDescription">
+          <string>This app needs speeach recognition access</string>
+      </config-file>
     </platform>
 </plugin>
